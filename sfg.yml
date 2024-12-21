@@ -1,6 +1,9 @@
 server:
   port: 8081
 
+app:
+  version: 1
+
 spring:
   artemis:
     mode: native
