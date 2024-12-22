@@ -13,8 +13,8 @@ management:
 spring:
   artemis:
     mode: native
-    host: artemis-mq-service2
-    port: 61617
+    host: artemis-mq-service
+    port: 61616
     user: artemis
     password: artemis
   jpa:
