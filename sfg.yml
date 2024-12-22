@@ -4,6 +4,12 @@ server:
 app:
   version: 1
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
 spring:
   artemis:
     mode: native
